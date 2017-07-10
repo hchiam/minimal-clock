@@ -3,7 +3,7 @@ var fullPageURL = 'https://codepen.io/hchiam/full/Pjdvgq/';
 function setFillertextByUrlDetection() { // for codepen
     let thisUrl = document.URL;
     if (thisUrl.indexOf('full') === -1) {
-        document.getElementById('fillertext').innerHTML = 'Go Full Page: ';
+        document.getElementById('fillertext').innerHTML = 'CodePen Version: ';
         let aTag = document.createElement('a');
         aTag.setAttribute('href',fullPageURL);
         aTag.setAttribute('target','_blank'); // open in new window

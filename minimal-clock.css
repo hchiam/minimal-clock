@@ -1,0 +1,11 @@
+* {
+  background-color: black;
+  color: whitesmoke;
+  font-family: arial;
+}
+
+#fillertext {
+  font-size:xx-large;
+  text-align:center;
+  color: goldenrod;
+}
